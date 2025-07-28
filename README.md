@@ -1,6 +1,6 @@
 # Predicting MLB Standings (2025) ⚾
 
-Every season, baseball fans and analysts attempt to forecast how the standings will look at the end of the year. With advanced data sources and machine learning techniques, we can now approach this question more systematically. This project aims to leverage historical mid-season standings and various team performance metrics to predict the final win totals for each MLB team for the 2025 season.
+Every season, baseball fans and analysts attempt to forecast how the standings will look at the end of the year. With advanced data sources and machine learning techniques, we can now approach this question more systematically. This project aims to leverage historical mid-season standings and various team performance metrics to predict the final win totals for each MLB team for the 2025 season. Personally, this project was done to help improve my skills in python, especially with libraries such as pandas, and numpy while also introducing myself to ML. 
 
 The approach combines data scraping from multiple sources and a machine learning model trained on 20 years of historical data to generate end-of-season projections.
 
@@ -25,6 +25,7 @@ scrapping_mlb_standings_data.ipynb
 - Merges scraped team names with external datasets like Fangraphs projections.
 
 **Feature Engineering**
+
 From historical mid-season standings, the following features were engineered:
 
 - Basic performance: Wins (W_mid), runs scored (RS_mid), runs allowed (RA_mid), and run differential (DIFF_mid).
@@ -36,6 +37,7 @@ From historical mid-season standings, the following features were engineered:
 - The target variable is Final_Wins
 
 **Model Development**
+
 Notebook: Predicting_mlb_standings_2025.ipynb
 
 The machine learning model:
@@ -47,6 +49,7 @@ The machine learning model:
 - Validation: Train/test split with grid search to tune hyperparameters, ensuring no data leakage.
 
 **2025 Projections**
+
 After training, the model was applied to the 2025 mid-season standings. Additional data, such as Fangraphs projected strength of schedule and projected Pythagorean wins, were incorporated to refine predictions.
 
 The final output is:
