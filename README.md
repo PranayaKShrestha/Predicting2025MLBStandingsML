@@ -63,6 +63,7 @@ Comparison vs. Fangraphs Projections (to evaluate differences)
 <img width="1430" height="1430" alt="image" src="https://github.com/user-attachments/assets/7b172e67-da22-406c-937f-48799ca69baa" />
 <img width="1430" height="220" alt="image" src="https://github.com/user-attachments/assets/d72e8d11-246c-4d90-9ead-181011ddc14e" />
 
+<img width="1213" height="640" alt="image" src="https://github.com/user-attachments/assets/32c2c3de-0ca7-480e-9433-9307e210a10b" />
 
 # Limitations ⚾
 - Injury / trade impacts are not explicitly modeled, although Fangraphs projections partially account for roster changes.
