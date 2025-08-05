@@ -65,6 +65,8 @@ Comparison vs. Fangraphs Projections (to evaluate differences)
 
 <img width="1213" height="640" alt="image" src="https://github.com/user-attachments/assets/32c2c3de-0ca7-480e-9433-9307e210a10b" />
 
+The Tigers, Cubs, and Brewers all project significantly higher than Fangraphs, suggesting my model puts more weight on run differential and remaining strength of schedule. The Braves and Orioles are considerably lower in my projections, implying potential regression risks based on mid-season performance metrics. While notable differences exist, most teams are within ±3 wins, indicating that despite methodological differences (machine learning vs. Fangraphs projection systems), the outcomes are largely consistent.
+
 # Limitations ⚾
 - Injury / trade impacts are not explicitly modeled, although Fangraphs projections partially account for roster changes.
 
